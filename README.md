@@ -44,13 +44,5 @@ The project follows a systematic approach to building and evaluating the brain t
 
 ## Results
 
-The final model achieved an impressive **96% accuracy** on the test set, demonstrating its effectiveness in accurately classifying brain tumor MRI images. The other evaluation metrics also indicated the model's reliability:
-
-  * **F1-Score:** [Your F1-Score]
-  * **Precision:** [Your Precision Score]
-  * **Recall:** [Your Recall Score]
-
-The training and validation loss and accuracy curves can be found in the `plots` directory.
-
-
+The final model achieved an impressive **96% accuracy** on the test set, demonstrating its effectiveness in accurately classifying brain tumor MRI images.
 
