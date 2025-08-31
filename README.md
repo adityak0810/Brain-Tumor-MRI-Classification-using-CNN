@@ -1,24 +1,7 @@
-Of course, here's a more detailed and engaging README for your GitHub repository.
-
------
 
 # Brain Tumor MRI Classification using CNN
 
 A multi-class brain tumor classifier using a Convolutional Neural Network (CNN) with the PyTorch deep learning framework. This project aims to accurately classify brain MRI images into four categories: glioma, meningioma, pituitary tumor, and no tumor.
-
-## Table of Contents
-
-  * [About the Project](https://www.google.com/search?q=%23about-the-project)
-  * [Dataset](https://www.google.com/search?q=%23dataset)
-  * [Methodology](https://www.google.com/search?q=%23methodology)
-  * [Getting Started](https://www.google.com/search?q=%23getting-started)
-      * [Prerequisites](https://www.google.com/search?q=%23prerequisites)
-      * [Installation](https://www.google.com/search?q=%23installation)
-  * [Usage](https://www.google.com/search?q=%23usage)
-  * [Results](https://www.google.com/search?q=%23results)
-  * [Contributing](https://www.google.com/search?q=%23contributing)
-  * [License](https://www.google.com/search?q=%23license)
-  * [Acknowledgments](https://www.google.com/search?q=%23acknowledgments)
 
 ## About The Project
 
@@ -59,42 +42,6 @@ The project follows a systematic approach to building and evaluating the brain t
           * Precision
           * Recall
 
-## Getting Started
-
-To get a local copy up and running, follow these simple steps.
-
-### Prerequisites
-
-Make sure you have Python and pip installed on your system. It is recommended to use a virtual environment to manage the project's dependencies.
-
-```sh
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-```
-
-### Installation
-
-1.  Clone the repo
-    ```sh
-    git clone https://github.com/your-username/your-repo-name.git
-    ```
-2.  Install the required packages
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-## Usage
-
-1.  **Download the dataset:** Download the Brain Tumor MRI Dataset from [Kaggle](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset) and place it in the `data` directory.
-2.  **Train the model:**
-    ```sh
-    python train.py
-    ```
-3.  **Evaluate the model:**
-    ```sh
-    python evaluate.py
-    ```
-
 ## Results
 
 The final model achieved an impressive **96% accuracy** on the test set, demonstrating its effectiveness in accurately classifying brain tumor MRI images. The other evaluation metrics also indicated the model's reliability:
@@ -105,23 +52,5 @@ The final model achieved an impressive **96% accuracy** on the test set, demonst
 
 The training and validation loss and accuracy curves can be found in the `plots` directory.
 
-## Contributing
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-## Acknowledgments
-
-  * [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset) on Kaggle
-  * The PyTorch Team for creating an amazing deep learning framework.
-
------
